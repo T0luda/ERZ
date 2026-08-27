@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Děkujeme za poptávku | Elektro Revize Zlín</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ==================== HEADER ==================== -->
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo">
+      <svg class="logo-icon" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="36" height="36" rx="8" fill="#1b2a3d"/>
+        <path d="M20 3c-.5 0-.9.3-.9.7L8.3 19.2c-.5.8.1 1.8 1 1.8h6.1l-3.9 11.7c-.3.8.8 1.4 1.3.7l15-17.6c.6-.7.1-1.9-.9-1.9h-4.2l-1.8-9.8c-.2-.6-.7-1.1-1.4-1.1z" transform="translate(2.5 2.5) scale(.86)" fill="#d97706"/>
+          <path d="M20 3 8 21h9l-3 12 14-19h-9z" fill="#d97706"/>
+      </svg>
+      Elektro Revize Zlín
+    </a>
+
+    <button class="nav-toggle" aria-label="Nabídka" aria-expanded="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+
+    <nav class="main-nav">
+      <ul class="nav-list">
+        <li><a href="index.html">Domů</a></li>
+        <li><a href="sluzby.html">Služby</a></li>
+        <li><a href="reference.html">Reference</a></li>
+        <li><a href="o-nas.html">O nás</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<!-- ==================== BREADCRUMBS ==================== -->
+<nav class="breadcrumbs" aria-label="Návěští">
+  <div class="container">
+    <span><a href="index.html">Domů</a></span>
+    <span>Kontakt</span>
+    <span>Děkujeme</span>
+  </div>
+</nav>
+
+<!-- ==================== THANK YOU CARD ==================== -->
+<section style="min-height: calc(80vh - var(--header-height)); display: flex; align-items: center;">
+  <div class="container">
+    <div class="thank-you-card">
+      <svg class="thank-you-icon" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round">
+        <circle cx="32" cy="32" r="28"/>
+        <path d="M20 32l8 8 16-16"/>
+      </svg>
+      <h1 style="font-size: 1.75rem;">Děkujeme za vaši poptávku</h1>
+      <p style="color: var(--color-text-muted); margin-top: .75rem;">Vaše zpráva byla úspěšně odeslána.</p>
+      <div style="margin: 1.25rem 0; padding: .85rem 1rem; background: #fef3c7; border-radius: var(--radius-sm); font-size: .9rem; color: var(--color-accent-hover);">
+        Ozveme se vám co nejdříve.
+      </div>
+      <p style="color: var(--color-text-muted); font-size: .88rem;">Pokud potřebujete odpověď rychleji, neváhejte nás zavolat.</p>
+      <div style="margin-top: 1.5rem; display: flex; gap: .75rem; justify-content: center; flex-wrap: wrap;">
+        <a href="tel:+420776312594" class="btn btn-accent btn-sm">Zavolat nyní</a>
+        <a href="index.html" class="btn btn-outline btn-sm">Zpět na domů</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== FOOTER ==================== -->
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-col">
+      <h4>Elektro Revize Zlín</h4>
+      <p>Revize elektrospotřebičů a elektrických instalací ve Zlíně a okolí.</p>
+      <p style="margin-top: .5rem; font-size: .82rem; opacity: .6;">IČ: 05842506 · DIČ: CZ05842506</p>
+    </div>
+    <div class="footer-col">
+      <h4>Navigace</h4>
+      <ul style="line-height: 1.9;">
+        <li><a href="index.html">Domů</a></li>
+        <li><a href="sluzby.html">Služby</a></li>
+        <li><a href="reference.html">Reference</a></li>
+        <li><a href="o-nas.html">O nás</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Kontakt</h4>
+      <p>Na Kopci 503, 760 01 Zlín</p>
+      <p>E-mail: <a href="mailto:sevcik@elektro-revize-zlin.cz">sevcik@elektro-revize-zlin.cz</a></p>
+      <p>Telefon: <a href="tel:+420776312594">+420 776 312 594</a></p>
+      <p style="margin-top: .5rem;"><a href="privacy-policy.html" style="font-size: .85rem;">Zásady ochrany osobních údajů</a></p>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    &copy; <span id="year"></span> Elektro Revize Zlín. Všechna práva vyhrazena.
+  </div>
+</footer>
+
+<!-- ==================== STICKY CTA (mobile only) ==================== -->
+<div class="sticky-cta" aria-label="Rychlé akce">
+  <a href="tel:+420776312594" class="btn btn-accent btn-sm" style="flex: none;">Zavolat</a>
+  <a href="index.html" class="btn btn-white btn-sm" style="flex: none;">Domů</a>
+</div>
+
+<script src="script.js"></script>
+<script>(document.getElementById('year').textContent = new Date().getFullYear());</script>
+</body>
+</html>

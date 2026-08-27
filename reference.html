@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- meta description doplní se později -->
+  <title>Reference a realizace | Elektro Revize Zlín</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ==================== HEADER ==================== -->
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo">
+      <svg class="logo-icon" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="36" height="36" rx="8" fill="#1b2a3d"/>
+        <path d="M20 3c-.5 0-.9.3-.9.7L8.3 19.2c-.5.8.1 1.8 1 1.8h6.1l-3.9 11.7c-.3.8.8 1.4 1.3.7l15-17.6c.6-.7.1-1.9-.9-1.9h-4.2l-1.8-9.8c-.2-.6-.7-1.1-1.4-1.1z" transform="translate(2.5 2.5) scale(.86)" fill="#d97706"/>
+          <path d="M20 3 8 21h9l-3 12 14-19h-9z" fill="#d97706"/>
+      </svg>
+      Elektro Revize Zlín
+    </a>
+
+    <button class="nav-toggle" aria-label="Nabídka" aria-expanded="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+
+    <nav class="main-nav">
+      <ul class="nav-list">
+        <li><a href="index.html">Domů</a></li>
+        <li><a href="sluzby.html">Služby</a></li>
+        <li><a href="reference.html" aria-current="page">Reference</a></li>
+        <li><a href="o-nas.html">O nás</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<!-- ==================== BREADCRUMBS ==================== -->
+<nav class="breadcrumbs" aria-label="Návěští">
+  <div class="container">
+    <span><a href="index.html">Domů</a></span>
+    <span>Reference</span>
+  </div>
+</nav>
+
+<!-- ==================== HERO (malý) ==================== -->
+<section class="hero" style="padding: 2.5rem 0;">
+  <div class="container hero-inner">
+    <div>
+      <h1>Reference a realizace</h1>
+      <p>Naše práce.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== CASE STUDIES ==================== -->
+<section class="section section--blue" aria-label="Seznam zakázek">
+  <div class="container">
+    <div class="cards-grid cards-grid--2" style="gap: 1.75rem;">
+
+      <!-- Case study 1 -->
+      <div class="card" style="padding: 0; overflow: hidden;">
+        <img src="Vymena%20trafa.png" alt="Výměna trafostanice" style="width: 100%; aspect-ratio: 16/9; object-fit: cover;">
+        <div class="card-body" style="padding-top: 1.25rem;">
+          <h3>Výměna trafostanice</h3>
+          <div class="case-meta">
+            <span>2026</span>
+            <span>Sehradice</span>
+          </div>
+          <p style="margin-top: .75rem;">Výměna trafostanice a navazující revize elektrického zařízení pro bezpečný a spolehlivý provoz.</p>
+          <div class="case-result">Realizace dokončena v roce 2026.</div>
+        </div>
+      </div>
+
+      <!-- Case study 2 -->
+      <div class="card" style="padding: 0; overflow: hidden;">
+        <div style="width: 100%; aspect-ratio: 16/9; background: repeating-conic-gradient(#dde1e6 0% 25%, #f8f9fa 0% 50%) 0 0 / 24px 24px; display: flex; align-items: center; justify-content: center; color: var(--color-text-muted); font-size: .85rem;">
+          [MÍSTO PRO FOTKU ZAKÁZKY]
+        </div>
+        <div class="card-body" style="padding-top: 1.25rem;">
+          <h3>[DOPLNIT: název zakázky 2]</h3>
+          <div class="case-meta">
+            <span>[ROK]</span>
+            <span>[MÍSTO]</span>
+          </div>
+          <p style="margin-top: .75rem;">[popis zakázky]</p>
+          <div class="case-result">
+            [výsledek zakázky]
+          </div>
+        </div>
+      </div>
+
+      <!-- Case study 3 -->
+      <div class="card" style="padding: 0; overflow: hidden;">
+        <div style="width: 100%; aspect-ratio: 16/9; background: repeating-conic-gradient(#dde1e6 0% 25%, #f8f9fa 0% 50%) 0 0 / 24px 24px; display: flex; align-items: center; justify-content: center; color: var(--color-text-muted); font-size: .85rem;">
+          [MÍSTO PRO FOTKU ZAKÁZKY]
+        </div>
+        <div class="card-body" style="padding-top: 1.25rem;">
+          <h3>[DOPLNIT: název zakázky 3]</h3>
+          <div class="case-meta">
+            <span>[ROK]</span>
+            <span>[MÍSTO]</span>
+          </div>
+          <p style="margin-top: .75rem;">[popis zakázky]</p>
+          <div class="case-result">
+            [výsledek zakázky]
+          </div>
+        </div>
+      </div>
+
+      <!-- Case study 4 -->
+      <div class="card" style="padding: 0; overflow: hidden;">
+        <div style="width: 100%; aspect-ratio: 16/9; background: repeating-conic-gradient(#dde1e6 0% 25%, #f8f9fa 0% 50%) 0 0 / 24px 24px; display: flex; align-items: center; justify-content: center; color: var(--color-text-muted); font-size: .85rem;">
+          [MÍSTO PRO FOTKU ZAKÁZKY]
+        </div>
+        <div class="card-body" style="padding-top: 1.25rem;">
+          <h3>[DOPLNIT: název zakázky 4]</h3>
+          <div class="case-meta">
+            <span>[ROK]</span>
+            <span>[MÍSTO]</span>
+          </div>
+          <p style="margin-top: .75rem;">[popis zakázky]</p>
+          <div class="case-result">
+            [výsledek zakázky]
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="text-center mt-3">
+      <a href="kontakt.html" class="btn btn-accent">Máte zájem? Napište nám</a>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== FOTO GALERIE ==================== -->
+<section class="section" aria-label="Fotogalerie">
+  <div class="container">
+    <h2 style="text-align: center;">Fotogalerie</h2>
+    <p class="text-center mb-1" style="color: var(--color-text-muted); max-width: 560px; margin-left: auto; margin-right: auto;">Vybrané momentky z našich realizací a revizí.</p>
+    <div class="cards-grid cards-grid--4 mt-2">
+      <div style="width: 100%; aspect-ratio: 4/3; background: repeating-conic-gradient(#dde1e6 0% 25%, #fff 0% 50%) 0 0 / 16px 16px; border-radius: var(--radius-md); display: flex; align-items: center; justify-content: center; color: var(--color-text-muted); font-size: .8rem;">[FOTOGRAFIE]</div>
+      <div style="width: 100%; aspect-ratio: 4/3; background: repeating-conic-gradient(#dde1e6 0% 25%, #fff 0% 50%) 0 0 / 16px 16px; border-radius: var(--radius-md); display: flex; align-items: center; justify-content: center; color: var(--color-text-muted); font-size: .8rem;">[FOTOGRAFIE]</div>
+      <div style="width: 100%; aspect-ratio: 4/3; background: repeating-conic-gradient(#dde1e6 0% 25%, #fff 0% 50%) 0 0 / 16px 16px; border-radius: var(--radius-md); display: flex; align-items: center; justify-content: center; color: var(--color-text-muted); font-size: .8rem;">[FOTOGRAFIE]</div>
+      <div style="width: 100%; aspect-ratio: 4/3; background: repeating-conic-gradient(#dde1e6 0% 25%, #fff 0% 50%) 0 0 / 16px 16px; border-radius: var(--radius-md); display: flex; align-items: center; justify-content: center; color: var(--color-text-muted); font-size: .8rem;">[FOTOGRAFIE]</div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== FOOTER ==================== -->
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-col">
+      <h4>Elektro Revize Zlín</h4>
+      <p>Revize elektrospotřebičů a elektrických instalací ve Zlíně a okolí.</p>
+      <p style="margin-top: .5rem; font-size: .82rem; opacity: .6;">IČ: 05842506 · DIČ: CZ05842506</p>
+    </div>
+    <div class="footer-col">
+      <h4>Navigace</h4>
+      <ul style="line-height: 1.9;">
+        <li><a href="index.html">Domů</a></li>
+        <li><a href="sluzby.html">Služby</a></li>
+        <li><a href="reference.html">Reference</a></li>
+        <li><a href="o-nas.html">O nás</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Kontakt</h4>
+      <p>Na Kopci 503, 760 01 Zlín</p>
+      <p>E-mail: <a href="mailto:sevcik@elektro-revize-zlin.cz">sevcik@elektro-revize-zlin.cz</a></p>
+      <p>Telefon: <a href="tel:+420776312594">+420 776 312 594</a></p>
+      <p style="margin-top: .5rem;"><a href="privacy-policy.html" style="font-size: .85rem;">Zásady ochrany osobních údajů</a></p>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    &copy; <span id="year"></span> Elektro Revize Zlín. Všechna práva vyhrazena.
+  </div>
+</footer>
+
+<!-- ==================== STICKY CTA (mobile only) ==================== -->
+<div class="sticky-cta" aria-label="Rychlé akce">
+  <a href="tel:+420776312594" class="btn btn-accent btn-sm" style="flex: none;">Zavolat</a>
+  <a href="kontakt.html" class="btn btn-white btn-sm" style="flex: none;">Poptávka</a>
+</div>
+
+<script src="script.js"></script>
+<script>(document.getElementById('year').textContent = new Date().getFullYear());</script>
+</body>
+</html>
