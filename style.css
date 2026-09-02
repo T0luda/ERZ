@@ -5,7 +5,7 @@
 
 /* ---- Custom properties ---- */
 :root {
-  --color-primary: #1b2a3d;       /* tmavě modrá / grafit */
+  --color-primary: #0f4d92;       /* tmavě modrá / grafit */
   --color-primary-light: #2c4058;
   --color-accent: #d97706;         /* jantarová / oranžová */
   --color-accent-hover: #b45309;
@@ -15,7 +15,7 @@
   --color-text: #1a1a2e;
   --color-text-muted: #5c6773;
   --color-border: #dde1e6;
-  --color-accent-blue: #2563eb;    /* modrý akcent na ikonách a rámečcích */
+  --color-accent-blue: #0f4d92;    /* modrý akcent na ikonách a rámečcích */
   --color-input-bg: #fff;
   --font-main: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   --max-width: 1140px;
@@ -172,7 +172,7 @@ h3 { font-size: clamp(1.15rem, 2vw, 1.35rem); }
 
 /* ---- Hero ---- */
 .hero {
-  background: #102a43;
+  background: var(--color-primary);
   color: var(--color-white);
   padding: 4rem 0;
   position: relative;
@@ -254,9 +254,18 @@ h3 { font-size: clamp(1.15rem, 2vw, 1.35rem); }
 .card h3 { margin-bottom: .4rem; font-size: 1.1rem; }
 .card p { color: var(--color-text-muted); font-size: .92rem; }
 .card-body { padding: 0; }
-.reference-teaser-card { display: flex; align-items: center; gap: 1rem; justify-content: space-between; }
-.reference-teaser-card > div { min-width: 0; }
-.reference-teaser-image { width: 88px; height: 66px; flex: 0 0 88px; object-fit: cover; border-radius: var(--radius-sm); }
+.realizace-teaser-card { display: flex; align-items: center; gap: 1rem; justify-content: space-between; }
+.realizace-teaser-card > div { min-width: 0; }
+.realizace-teaser-image { width: 88px; height: 66px; flex: 0 0 88px; object-fit: cover; border-radius: var(--radius-sm); }
+.customers-section { background: var(--color-white); }
+.customers-container { max-width: 940px; }
+.customers-section h2 { color: var(--color-accent); text-transform: uppercase; letter-spacing: .03em; }
+.customers-heading-line { width: 225px; height: 2px; margin: 2.25rem 0 1.5rem; background: var(--color-accent); }
+.customers-grid { display: grid; gap: .25rem 4rem; }
+.customers-list { color: var(--color-text-muted); }
+.customers-list li { position: relative; padding: .2rem 0 .2rem 1.45rem; }
+.customers-list li::before { content: ""; position: absolute; left: 0; top: .52rem; width: .85rem; height: .95rem; background: url("flash-8081492.png") center / contain no-repeat; }
+@media (min-width: 600px) { .customers-grid { grid-template-columns: repeat(2, 1fr); } }
 .benefits-list { margin-top: 1rem; padding: 1rem 1.25rem; border-left: 3px solid var(--color-accent); background: var(--color-blue-light); color: var(--color-text); line-height: 1.7; }
 .benefits-list li + li { margin-top: .55rem; }
 .benefits-list strong { color: var(--color-primary); }
@@ -269,7 +278,7 @@ h3 { font-size: clamp(1.15rem, 2vw, 1.35rem); }
   .service-card--full .card-icon[src*="transformer"] { width: 100px; height: 100px; margin: -8px 0 -8px -8px; }
 }
 
-/* ---- Case study / reference cards ---- */
+/* ---- Case study / realizace cards ---- */
 .case-meta { display: flex; gap: 1rem; margin-top: .5rem; font-size: .82rem; color: var(--color-text-muted); }
 .case-result {
   margin-top: 1rem;

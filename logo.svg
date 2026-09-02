@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 112" role="img" aria-labelledby="logo-title logo-desc">
   <title id="logo-title">Elektro Revize Zlín</title>
   <desc id="logo-desc">Moderní oranžový blesk na tmavě modrém pozadí s názvem Elektro Revize Zlín</desc>
-  <rect width="420" height="112" rx="18" fill="#102a43"/>
+  <rect width="420" height="112" rx="18" fill="#0f4d92"/>
   <path d="M64 8 37 55h20l-8 49 34-56H64z" fill="#d97706"/>
   <text x="116" y="54" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" letter-spacing="1">ELEKTRO REVIZE</text>
   <text x="118" y="82" fill="#ffb52e" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" letter-spacing="4">ZLÍN</text>
