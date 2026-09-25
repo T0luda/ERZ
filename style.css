@@ -83,6 +83,7 @@ h3 { font-size: clamp(1.15rem, 2vw, 1.35rem); }
   width: 36px;
   height: 36px;
   flex-shrink: 0;
+  object-fit: contain;
 }
 
 /* Nav */
@@ -417,6 +418,8 @@ h3 { font-size: clamp(1.15rem, 2vw, 1.35rem); }
 .contact-info-block h3 { font-size: 1.05rem; margin-bottom: .35rem; }
 .contact-info-block p { color: var(--color-text-muted); font-size: .92rem; }
 .contact-info-block + .contact-info-block { margin-top: 1.25rem; padding-top: 1.25rem; border-top: 1px solid var(--color-border); }
+.contact-person + .contact-person { margin-top: .75rem; padding-top: .75rem; border-top: 1px solid var(--color-border); }
+.contact-person-specialty { margin-top: .15rem; padding-left: .6rem; border-left: 2px solid var(--color-accent); }
 
 /* ---- Footer ---- */
 .site-footer {
